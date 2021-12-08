@@ -1,8 +1,8 @@
 {
-  "name-web":"quiznewscap",
+  "name-web":"newscap",
   "author":"Recipes blog",
   "remove-comment-html":true,
-  "target":"https://quizizz.com/",
+  "target":"https://coinmarketcap.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"https://quizizz.com/",
+      "target":"https://coinmarketcap.com/",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://quizizz.com/",
+          "target":"https://coinmarketcap.com/",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"quizizz.com/",
+      "target":"coinmarketcap.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
